@@ -49,8 +49,6 @@ object Creation extends App {
   // Send StartMusic Message to actor
   player ! StartMusic
 
-  // Send StopMusic Message to actor
-
   // shutdown system
   system.terminate()
 }
