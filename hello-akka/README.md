@@ -1,7 +1,7 @@
 # Chapter 1: Exploring the Actor World
 This is brief introduction to Akka and Actor model with traditional `hello-world` example project.
 
-# Building Akka project
+## Building Akka project
 In this video serie all Akka projects are developed using [Scala programming language](http://www.scala-lang.org/). There are several build tools used for building Scala projects: [Maven](https://maven.apache.org/), [Gradle](http://gradle.org/) and [SBT](http://www.scala-sbt.org/). SBT is the mostly used tool for Scala projects and in the following examples this tool is used to build all example projects.
 
 Basic SBT build settings go in a file called `build.sbt`, located in the project’s base directory. All project will have similar configuration defined in this file:

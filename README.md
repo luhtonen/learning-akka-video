@@ -6,6 +6,8 @@ This is the example code for the lessons from the Video Course [Learning Akka](h
 
 This course suppose to provide the foundation in Akka that will enable to develop excellent applications and services with this toolkit.
 
+In the README files to my examples I will discuss the issues, which I found important but which are not mentioned in the videos.
+
 ## Contents
 Chapter 1: [Exploring the Akka World](hello-akka)  
 Chapter 2: [Playing with Actors](playing-with-actors)  
