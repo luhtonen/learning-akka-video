@@ -45,3 +45,11 @@ In many `App` objects or classes before terminating the Akka system can be seen 
 	Thread.sleep(100)
 	
 This tells the application to way for a specified amount of milliseconds (in some cases it is 100 ms some times it is 1000ms) to give the Akka time to process all messages. If you try to remove those lines, you might see that some messages were not processed, because `ActorSystem` is terminated before those messages were processed.
+
+In some videos at the end of `App` can be seen following line:
+
+	system.shutdown()
+
+This is deprecated method, `terminate()` should be used instead:
+
+	system.terminate()
