@@ -1,5 +1,5 @@
 # Learning Akka
-This is the example code for the lessons from the Video Course [Learning Akka](https://www.safaribooksonline.com/library/view/learning-akka/9781784391836/) by Salma Kheter.
+This is the example code for the lessons from the Video Course [Learning Akka](https://www.safaribooksonline.com/library/view/learning-akka/9781784391836/) by Salma Khater.
 
 ## Introduction
 [Akka](http://akka.io/) is an open-source toolkit and runtime simplifying the construction of concurrent and distributed applications on the JVM. Akka supports multiple programming models for concurrency, but it emphasizes actor-based concurrency, with inspiration drawn from Erlang. Language bindings exist for both Java and Scala.
