@@ -21,3 +21,5 @@ Router group is created based on the configurations defined in `application.conf
 as following:
 
 	val routerGroup = system.actorOf(FromConfig.props(), "round-robin-group")
+
+More information about routers and routing strategies from [Akka official documentation](http://doc.akka.io/docs/akka/2.4.0/scala/routing.html).
