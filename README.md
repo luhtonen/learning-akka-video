@@ -10,4 +10,9 @@ This course suppose to provide the foundation in Akka that will enable to develo
 Chapter 1: [Exploring the Akka World](hello-akka)  
 Chapter 2: [Playing with Actors](playing-with-actors)  
 Chapter 3: Working with Akka basic tools  
-Chapter 4: 
+Chapter 4: Akka Persistence  
+Chapter 5: Working with Akka Cluster  
+Chapter 6: Testing Actors  
+Chapter 7: Working with Akka Streams
+Chapter 8: Working with Akka HTTP  
+Chapter 9: Working with Common Patterns in Akka
