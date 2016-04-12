@@ -12,7 +12,7 @@ In the README files to my examples I will discuss the issues, which I found impo
 Chapter 1: [Exploring the Akka World](hello-akka)  
 Chapter 2: [Playing with Actors](playing-with-actors)  
 Chapter 3: [Working with Akka basic tools](akka-basic-tools.md)  
-Chapter 4: Akka Persistence  
+Chapter 4: [Akka Persistence](persistence.md)  
 Chapter 5: Working with Akka Cluster  
 Chapter 6: Testing Actors  
 Chapter 7: Working with Akka Streams
