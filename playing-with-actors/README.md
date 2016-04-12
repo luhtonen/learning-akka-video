@@ -1,0 +1,2 @@
+# Chapter 2: Playing with Actors
+This chapter introduces Actor system, hierarchical structure, components and lifecycle. Examples of this chapter show how to create actor with props, how to communicate with the actors as well as actor supervision strategy and monitoring capability.
