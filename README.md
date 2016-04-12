@@ -9,7 +9,7 @@ This course suppose to provide the foundation in Akka that will enable to develo
 ## Contents
 Chapter 1: [Exploring the Akka World](hello-akka)  
 Chapter 2: [Playing with Actors](playing-with-actors)  
-Chapter 3: Working with Akka basic tools  
+Chapter 3: [Working with Akka basic tools](akka-basic-tools.md)  
 Chapter 4: Akka Persistence  
 Chapter 5: Working with Akka Cluster  
 Chapter 6: Testing Actors  
