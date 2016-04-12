@@ -38,3 +38,10 @@ When there is not need to pass the parameters to the case class `case object` sh
 	case object StartMusic extends PlayMsg
   	
 Use of no-arg case classes, for example like following `case class StopMusic extends PlayMsg`, is deprecated and may lead to unexpected results. For example following pattern matching wouldn't work: `case StopMusic => println("I don't want to stop music")`. This deprecation warning can be fixed by defining empty parameter list for the case class like following `case class StopMusic() extends PlayMsg`, but using `case object` is preferred.
+
+## Other notes
+In many `App` objects or classes before terminating the Akka system can be seen following line:
+
+	Thread.sleep(100)
+	
+This tells the application to way for a specified amount of milliseconds (in some cases it is 100 ms some times it is 1000ms) to give the Akka time to process all messages. If you try to remove those lines, you might see that some messages were not processed, because `ActorSystem` is terminated before those messages were processed.
