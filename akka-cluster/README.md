@@ -66,3 +66,4 @@ This code looks for `singleton.conf` file from `src/main/resources` directory. H
 	}
 
 ## Cluster Sharding
+Simple example of how to use Cluster Sharding.
