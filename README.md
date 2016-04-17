@@ -14,7 +14,7 @@ Chapter 2: [Playing with Actors](playing-with-actors)
 Chapter 3: [Working with Akka basic tools](akka-basic-tools.md)  
 Chapter 4: [Akka Persistence](persistence.md)  
 Chapter 5: [Working with Akka Cluster](akka-cluster.md)  
-Chapter 6: Testing Actors  
+Chapter 6: [Testing Actors](testing.md)  
 Chapter 7: Working with Akka Streams  
 Chapter 8: Working with Akka HTTP  
 Chapter 9: Working with Common Patterns in Akka
