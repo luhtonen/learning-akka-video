@@ -2,7 +2,10 @@
 ## Reactive Tweets
 This example shows how to stream, transform and print out tweets.
 
-### Some notes
+### Application configuration
+This example reads configuration from `application.conf` file located in `src/main/resources` directory. It contains contains Tweeter connection configuration.
+
+### Some notes about changed API
 In original video Stream `Source` was created using following line of code:
 
 	val source = Source(() => TwitterClient.retrieveTweets("#Akka"))
