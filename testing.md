@@ -4,4 +4,4 @@ In this chapter reviewing different ways to test Akka Actors.
 [How to Test an Actor?](testing-actors)  
 [Testing a Parent-child Relationship](testing-parent-child)  
 [Testing FSM](test-fsm)  
-Multi Node Testing
+[Multi Node Testing](multi-node-testing)
