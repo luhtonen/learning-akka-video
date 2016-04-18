@@ -8,7 +8,7 @@ Akka Stream is now part of standard Akka package and should be imported in `buil
 ## Contents
 [Introduction to Akka Streams](akka-streams)  
 [Reactive Tweets](reactive-tweets)  
-Testing Streams  
+[Testing Streams](stream-test)  
 Working with Graphs  
 Working with Stream IO  
 
