@@ -7,7 +7,7 @@ Akka Stream is now part of standard Akka package and should be imported in `buil
 	
 ## Contents
 [Introduction to Akka Streams](akka-streams)  
-Reactive Tweets  
+[Reactive Tweets](reactive-tweets)  
 Testing Streams  
 Working with Graphs  
 Working with Stream IO  
@@ -24,3 +24,11 @@ Should be replaced with the following code:
 	import scala.concurrent.duration._
 	
 	Await.result(actorSystem.terminate(), 10.seconds)
+	
+As well as following import is not working in newer version of Akka:
+	
+	import system.dispatcher
+
+Following import should be used instead:
+
+	import scala.concurrent.ExecutionContext.Implicits.global
