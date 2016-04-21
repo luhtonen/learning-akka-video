@@ -8,6 +8,12 @@ Akka Streams is now in release stage and there are significant changes from `exp
 #### FlowGraph is removed
 `FlowGraph` is removed from version 2.x and replaced with several other objects.
 
+Official [Migration Guide](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/scala/migration-guide-1.0-2.x-scala.html#FlowGraph_class_and_builder_methods_have_been_renamed) describes **Update procedure**:
+> 1. Search and replace all occurrences of `FlowGraph` with `GraphDSL`.
+2. Replace all occurrences of `GraphDSL.partial()` or `GraphDSL.closed()` with `GraphDSL.create()`.
+3. Add `ClosedShape` as a return value of the builder block if it was `FlowGraph.closed()` before.
+4. Wrap the closed graph with `RunnableGraph.fromGraph` if it was `FlowGraph.closed()` before.
+
 The following code from the old experimental version:
 
 	val g = FlowGraph.closed() { implicit builder: FlowGraph.Builder[Unit] =>
