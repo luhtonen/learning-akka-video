@@ -2,7 +2,7 @@
 This is the example code for the lessons from the Video Course [Learning Akka](https://www.safaribooksonline.com/library/view/learning-akka/9781784391836/) by Salma Khater.
 
 ## Introduction
-[Akka](http://akka.io/) is an open-source toolkit and runtime simplifying the construction of concurrent and distributed applications on the JVM. Akka supports multiple programming models for concurrency, but it emphasizes actor-based concurrency, with inspiration drawn from Erlang. Language bindings exist for both Java and Scala.
+[Akka](http://akka.io/) is an open-source toolkit and runtime simplifying the construction of concurrent and distributed applications on the JVM. Akka supports multiple programming models for concurrency, but it emphasises actor-based concurrency, with inspiration drawn from Erlang. Language bindings exist for both Java and Scala.
 
 This course suppose to provide the foundation in Akka that will enable to develop excellent applications and services with this toolkit.
 
@@ -16,5 +16,5 @@ Chapter 4: [Akka Persistence](persistence.md)
 Chapter 5: [Working with Akka Cluster](akka-cluster.md)  
 Chapter 6: [Testing Actors](testing.md)  
 Chapter 7: [Working with Akka Streams](streams.md)  
-Chapter 8: Working with Akka HTTP  
+Chapter 8: [Working with Akka HTTP](http.ms)  
 Chapter 9: Working with Common Patterns in Akka

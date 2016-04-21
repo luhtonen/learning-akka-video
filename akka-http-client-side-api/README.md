@@ -1,0 +1,3 @@
+# Chapter 8: Working with Akka HTTP
+## Working with Client-side API
+In this examples shown how to create HTTP client to consume external services. 3 levels of client-side API is available in Akka HTTP: *connection*, *host* and *request*. **Connection level** is the lowest level API and provides more granular control of connection handling. **Host level** is build on top of *connection level* and provide control to host connections. **Request level** is build on top of *host level* and is simplest of all 3, but provides access only to request API.
