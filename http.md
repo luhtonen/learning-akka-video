@@ -8,7 +8,7 @@ Akka HTTP core (`akka-http-core`) is a release level, but following experimental
 
 ## Contents
 [Working with Client-side API](akka-http-client-side-api)  
-Working with Server-side API  
+[Working with Server-side API](akka-http-server-side-api)  
 Let's Implement a REST API  
 Let's Test Our REST API
 
@@ -23,3 +23,11 @@ To be able to build and run examples in this chapter, at least following depende
 	  "com.typesafe.akka" %% "akka-http-spray-json-experimental" % "2.4.4"
 	)
 
+## Deprecated code
+In the examples on the videos used implicit dispatcher:
+
+	implicit val ec = system.dispatcher
+
+this is not necessary and is should not be used. Instead global implicit should be defined at the top of the scala source file as following:
+
+	import scala.concurrent.ExecutionContext.Implicits.global
