@@ -23,11 +23,3 @@ To be able to build and run examples in this chapter, at least following depende
 	  "com.typesafe.akka" %% "akka-http-spray-json-experimental" % "2.4.4"
 	)
 
-## Deprecated code
-In the examples on the videos used implicit dispatcher:
-
-	implicit val ec = system.dispatcher
-
-this is not necessary and is should not be used. Instead global implicit should be defined at the top of the scala source file as following:
-
-	import scala.concurrent.ExecutionContext.Implicits.global
