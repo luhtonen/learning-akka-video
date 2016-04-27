@@ -16,5 +16,5 @@ Chapter 4: [Akka Persistence](persistence.md)
 Chapter 5: [Working with Akka Cluster](akka-cluster.md)  
 Chapter 6: [Testing Actors](testing.md)  
 Chapter 7: [Working with Akka Streams](streams.md)  
-Chapter 8: [Working with Akka HTTP](http.ms)  
-Chapter 9: Working with Common Patterns in Akka
+Chapter 8: [Working with Akka HTTP](http.md)  
+Chapter 9: [Working with Common Patterns in Akka](patterns.md)

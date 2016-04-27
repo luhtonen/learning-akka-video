@@ -1,0 +1,9 @@
+# Chapter 9: Working with Common Patterns in Akka
+Examples of how to use different common design patterns with Akka.
+
+## Contents
+[Balancing Workload Across Nodes](balancing-workload)  
+Throttling Messages  
+Shutdown Patterns  
+Ordered Termination  
+Scheduling Periodic Messages  
