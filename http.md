@@ -10,7 +10,7 @@ Akka HTTP core (`akka-http-core`) is a release level, but following experimental
 [Working with Client-side API](akka-http-client-side-api)  
 [Working with Server-side API](akka-http-server-side-api)  
 [Let's Implement a REST API](rest-api)  
-Let's Test Our REST API
+[Let's Test Our REST API](rest-api)
 
 ## Projects dependencies for Akka HTTP
 To be able to build and run examples in this chapter, at least following dependencies should be defined in `build.sbt` file:

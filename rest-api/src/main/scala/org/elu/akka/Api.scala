@@ -46,6 +46,7 @@ trait RestApi {
             }
           }
         } /*~
+        TODO: fix get all tweets call
         get {
           complete {
             TweetManager.find map { ts =>
