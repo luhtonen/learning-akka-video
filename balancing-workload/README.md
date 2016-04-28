@@ -14,3 +14,5 @@ In `Worker` class was used deprecated code to get master actor reference from `A
 `actorFor` method is deprecated and `actorSelection` should be used instead:
 
 	  val master = context.actorSelection(masterLocation)
+
+Here can be found more detailed description about [Balancing Workload Across Nodes with Akka 2](http://letitcrash.com/post/29044669086/balancing-workload-across-nodes-with-akka-2).
