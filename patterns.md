@@ -3,7 +3,7 @@ Examples of how to use different common design patterns with Akka.
 
 ## Contents
 [Balancing Workload Across Nodes](balancing-workload)  
-Throttling Messages  
+[Throttling Messages](throttler-messages)  
 Shutdown Patterns  
 Ordered Termination  
 Scheduling Periodic Messages  
