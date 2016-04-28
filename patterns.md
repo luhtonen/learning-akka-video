@@ -6,4 +6,4 @@ Examples of how to use different common design patterns with Akka.
 [Throttling Messages](throttler-messages)  
 [Shutdown Patterns](shutdown-pattern)  
 [Ordered Termination](ordered-termination)  
-Scheduling Periodic Messages  
+[Scheduling Periodic Messages](scheduler-messages)  
