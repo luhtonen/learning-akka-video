@@ -15,8 +15,8 @@ object ActorPath extends App {
   counter1 ! PoisonPill
   Thread.sleep(100)
 
-  val counter2 = system.actorOf(Props[Counter], "counter")
-  println(s"Actor Reference for counter1: $counter2")
+  val counter2 = system.actorOf(Props[Counter], "Counter")
+  println(s"Actor Reference for counter2: $counter2")
 
   val counterSelection2 = system.actorSelection("counter")
   println(s"Actor Selection for counter2: $counterSelection2")
